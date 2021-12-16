@@ -23,6 +23,7 @@ social:
   email: rktlskan021@kookmim.ac.kr
 
 google_analytics: "UA-58263416-1"
-
-disqus:
-    shortname: brianmaierjr
+comment:
+    provider: "disqus"
+    disqus:
+       shortname: "rktlskan021"
