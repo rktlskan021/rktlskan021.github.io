@@ -1,18 +1,51 @@
 ---
 layout: post
-title:  "Featured Image"
-date:   2014-12-14
-image: touring.jpg
+title:  "Markdown"
+date:   2021-12-14
+description: about Markdown
+comments: true
 ---
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+## Markdown 이란?
+일반텍스트로 서식이 있는 문서를 작성하는 방법으로 일반 텍스트 기반의 경량 마크업 언어다. 일반 텍스트로 서식이 있는 문서를 작성하는 데 사용되며, 일반 마크업 언어에 비해 문법이 쉽고 간단한 것이 특징이다. HTML과 리치 텍스트(RTF) 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트웨어와 함께 배포되는 README 파일이나 온라인 게시물 등에 많이 사용된다.
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
+## 문법
+#### 1. Header : #, ##, ###, ... 으로 제목 작성
+#: 
+# 큰제목
+##: 
+# 중간 제목
+###: 
+### 작은 제목
 
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
+#### 2. Italic : *...*, _..._으로 기울임체 작성
+*Italic*
+<br/>_also-italic_
 
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
+#### 3. Bold : **...**, __...__ 으로 강조체 작성
+**Bold**
+<br/>__also-Bold__
 
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
+#### 4. Strikethrough : \~~...\~~ 으로 취소선 작성
+~~Strikethrough~~
 
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
+#### 5. Unordered List : - ..., * ... 으로 순서없는 리스트 작성
+- 1 : ... 
+- 2 : ...
+
+#### 6. Ordered List : 1. ... 으로 순서 리스트 작성
+1. ~~
+2. ~~
+
+#### 7. Code : \`...\` 으로 코드 작성
+We can print some value with `print()`
+
+#### 8. Code Block : \`\`\`...\`\`\` 으로 코드 블록 작성
+We can get by this function:
+```python
+def power(x: int):
+	return x ** 2
+```
+
+이러한 기능 뿐만 아니라 더 다양한 문법들이 있으니
+<br/>[Markdown Guide - Basic Syntax](https://www.markdownguide.org/basic-syntax#code) 에서 필요한 문법을 찾아볼 수 있다.

@@ -1,65 +1,24 @@
 ---
 layout: post
-title:  "Example Post Formatting"
-date:   2014-12-15
-description: This is a post description for meta purposes. This is also the excerpt of the article that shows up on the index/home page. Change this in the post YAML.
+title:  "Jekyll"
+date:   2021-12-15
+description: about Jekyll
+comments: true
 ---
 
-<p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
+## Jekyll 이란?
+깃허브에서 개발한 Ruby를 기반으로 만들어진 설치형 블로그의 하나이다.
 
-# Heading 1
+## 특징
+마크다운을 사용해서 포스트를 작성하면 HTML 으로 변환하여 정적 사이트를 만들어준다. 마크다운의 특성상 코드 표현이나 이미지 삽입, 링크, 테이블 표현이 간단하고, GitHub Pages등에서 무료 호스팅을 제공하기 때문에 개발자들 사이에서는 인지도가 어느 정도 있는 편이다.
 
-## Heading 2
+그 외에 Ruby를 사용해 본 적이 없어도 인스톨과 사용에 문제가 없으며, 테마를 바꾸더라도 포스트(마크다운 파일)만 옮겨서 수정하면 되는 등 사용법이 간단하다는 특징이 있다.
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-<blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
-
-Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-## Unordered List
-* List Item
-* Longer List Item
-  * Nested List Item
-  * Nested Item
-* List Item
-
-## Ordered List
-1. List Item
-2. Longer List Item
-    1. Nested OL Item
-    2. Another Nested Item
-3. List Item
-
-## Definition List
-<dl>
-  <dt>Coffee</dt>
-  <dd>Black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>White cold drink</dd>
-</dl>
-
-Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-
-## Table
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum.
-
-Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-
-Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+## 디렉토리 구조
+- includes : 재사용을 위한 파일들을 담는 디렉토리로, 포스트나 레이아웃을 쉽게 삽입할 수 있다
+- posts : 내가 만든 컨텐츠를 담는 디렉토리로, 파일들의 명명 규칙에 따라 네이밍한다
+- layouts : 포스트를 포장, 레이아웃을 선택을 위한 파일들을 담는 디렉토리
+- site : JIKILL의 변환을 마친 파일들이 들어가는 DEFAULT 디렉토리 
+- sass : Sass 조각파일들로 main.scss에 임포트 할 수 있으며 그 후에는 하나의 스타일 시트로 가공된다
+- config.yml : 환경설정 정보들을 보관한다 (명령어를 실행 시, 여러 옵션들을 그때마다 적용할 필요가 없어진다
+- sitemap.xml : 검색 엔진에서 보다 쉽게 crawl 해 찾을 수 있도록 돕는다
