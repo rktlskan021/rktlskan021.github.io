@@ -4,12 +4,13 @@
 3. Github에 Jekyll 테마 포크 후 적용
 4. 댓글 기능 추가
 5. Google Analytics 추가
+6. 사이트에 favicon 추가
 
 ## 1. Repository 생성하기 (Username.github.io) 후 클론
-1-1. New repository 클릭
-1-2. Repository 이름을 `<username.github.io> 로 지정
-1-3. 생성 완료
-1-4. 생성한 repository를 클론
+1. New repository 클릭
+1. Repository 이름을 `<username.github.io> 로 지정
+1. 생성 완료
+1. 생성한 repository를 클론
 
 ## 2. Jekyll 설치하기
 1. [ruby site](https://rubyinstaller.org/downloads/) 페이지 접속
@@ -50,3 +51,6 @@ comment:
 
 ## 5. Google Analytics 추가
 [이 사이트 참고](https://rktlskan021.github.io/blog/google-analytics/)
+
+## 6. 사이트에 favicon 추가
+favicon으로 사용할 이미지 다운로드 후 /assets/img 경로에 'favicon'이라는 이름으로 저장

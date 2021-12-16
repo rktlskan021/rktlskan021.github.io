@@ -41,3 +41,5 @@ comments: true
 
 3. 완료!
 * 모든 설정이 완료되었다면, Google Analytics 를 통해 실시간으로 활성 사용자가 변하는 것을 볼 수 있다.
+
+![google_analytics](/assets/img/google_analytics.png)
