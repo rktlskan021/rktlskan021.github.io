@@ -1,7 +1,8 @@
-title: Long Haul
+title: Jaeyoung's Blog
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: https://long-haul.netlify.app
+#url: https://long-haul.netlify.app
+url: https://rktlskan021.github.io/
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -16,17 +17,10 @@ paginate: 5
 navigation:
   - title: Home
     url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: rktlskan021
+  email: rktlskan021@kookmim.ac.kr
 
 google_analytics: "UA-58263416-1"
 
